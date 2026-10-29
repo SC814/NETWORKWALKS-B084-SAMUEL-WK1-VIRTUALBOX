@@ -167,7 +167,7 @@ Confirm the following settings against the actual configuration in VirtualBox be
 
 #### 📸 Screenshot Evidence
 
-![VirtualBox NAT Network Configuration] 
+[VirtualBox NAT Network Configuration] 
 <img width="1600" height="862" alt="WhatsApp Image 2026-10-29 at 3 53 41 AM (1)" src="https://github.com/user-attachments/assets/a8f6be93-b332-45df-ba62-59209b7b394c" />
 
 
@@ -207,12 +207,12 @@ My host computer has 8 GB of RAM, so the allocation should be appropriate for th
 
 #### 📸 Screenshot Evidence
 
-![Kali Linux Imported into VirtualBox] 
+[Kali Linux Imported into VirtualBox] 
 <img width="1600" height="863" alt="WhatsApp Image 2026-10-29 at 3 53 57 AM (1)" src="https://github.com/user-attachments/assets/b3eb52c8-dade-4d24-b56c-8e0bcc05899c" />
 
 
 
-![Kali Linux Virtual Machine Network Settings] 
+[Kali Linux Virtual Machine Network Settings] 
 <img width="790" height="523" alt="WhatsApp Image 2026-10-29 at 3 52 47 AM (1)" src="https://github.com/user-attachments/assets/fbed1628-a3a2-47ae-978b-2423552fd185" />
 
 
@@ -274,7 +274,7 @@ A successful DNS lookup indicates that the domain name resolved to an IP address
 
 #### 📸 Screenshot Evidence
 
-![Kali Linux Network Configuration] 
+[Kali Linux Network Configuration] 
 <img width="1600" height="863" alt="WhatsApp Image 2026-10-29 at 3 53 07 AM (1)" src="https://github.com/user-attachments/assets/01f37600-2623-40d0-83f5-77a89cf032f2" />
 
 
