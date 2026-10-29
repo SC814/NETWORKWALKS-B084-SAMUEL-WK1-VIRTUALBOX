@@ -156,7 +156,8 @@ Confirm the following settings against the actual configuration in VirtualBox be
 
 #### 📸 Screenshot Evidence
 
-![VirtualBox NAT Network Configuration](screenshots/Nat_net.PNG)
+![VirtualBox NAT Network Configuration]<img width="1600" height="862" alt="WhatsApp Image 2026-10-29 at 3 53 41 AM" src="https://github.com/user-attachments/assets/fa7c44f8-d0ad-4d26-be79-2e6a432e67c1" />
+
 
 ### Step 4. Download and Import Kali Linux
 
@@ -193,9 +194,12 @@ My host computer has 8 GB of RAM, so the allocation should be appropriate for th
 
 #### 📸 Screenshot Evidence
 
-![Kali Linux Imported into VirtualBox](screenshots/Kali_interface.PNG)
+![Kali Linux Imported into VirtualBox] <img width="1600" height="863" alt="WhatsApp Image 2026-10-29 at 3 53 57 AM" src="https://github.com/user-attachments/assets/b9dcd1e3-1491-4151-953d-6cc896fbb154" />
 
-![Kali Linux Virtual Machine Network Settings](screenshots/Kali_adapter_settings.PNG)
+
+![Kali Linux Virtual Machine Network Settings] <img width="1600" height="863" alt="WhatsApp Image 2026-10-29 at 3 53 07 AM" src="https://github.com/user-attachments/assets/282b43e7-8edb-4f98-bf72-297ab42e3196" />
+<img width="790" height="523" alt="WhatsApp Image 2026-10-29 at 3 52 47 AM" src="https://github.com/user-attachments/assets/256bd1fb-52fc-406d-a66c-8d1dd0d76fe7" />
+
 
 ### Step 5. Configure the Kali Linux Network
 
@@ -253,7 +257,8 @@ A successful DNS lookup indicates that the domain name resolved to an IP address
 
 #### 📸 Screenshot Evidence
 
-![Kali Linux Network Configuration](screenshots/Default_gateway.PNG)
+![Kali Linux Network Configuration] <img width="1600" height="863" alt="WhatsApp Image 2026-10-29 at 3 53 07 AM" src="https://github.com/user-attachments/assets/cc85031f-4100-4bb0-8079-8f9313772228" />
+
 
 ### Step 6. Create a Clean Virtual Machine Snapshot
 
