@@ -1,15 +1,25 @@
 
+<div align="center">
+
 # 🔐 Cybersecurity Lab Environment Setup
 
-Building an isolated virtual lab for penetration testing and ethical hacking practice.
+**Building an isolated virtual lab for penetration testing and ethical hacking practice**
+</div>
 
-<p align="left">
-  <img src="https://img.shields.io/badge/NetworkWalks-B084-blue?style=for-the-badge" alt="NetworkWalks Batch B084" />
-  <img src="https://img.shields.io/badge/Week-01-orange?style=for-the-badge" alt="Week 1" />
-  <img src="https://img.shields.io/badge/VirtualBox-7.2.14-183A61?style=for-the-badge&logo=virtualbox&logoColor=white" alt="VirtualBox 7.2.14" />
-  <img src="https://img.shields.io/badge/Kali%20Linux-Penetration%20Testing-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali Linux" />
+<p align="center">
+  <img src="https://img.shields.io/badge/Skill-Cybersecurity-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/Ver-Virtualbox%20v7.2-0070C0?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Kali%20Linux-v2026.2-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Skill-Linux-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/Network-10.0.0.0%2F24-238F89?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Penetration%20Testing-C00000?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Skill-Virtualization-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/GitHub-404040?style=flat-square&labelColor=0070C0&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kali%20Linux-404040?style=flat-square&labelColor=C00000&logo=kalilinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/NetworkWalks-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/Ethical%20Hacking-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Waqas%20Karim%20CCIE-C00000?style=flat-square" />
 </p>
-
 ---
 
 ## 📌 Project Overview
@@ -181,7 +191,7 @@ Example configuration:
 Adapter 1
 Attached to: NAT Network
 Network:     NatNetwork
-Adapter Type: Confirm from VM settings
+Adapter Type:Intel PRO/1000 MT Desktop (82540EM)
 ```
 
 Verify the network name and adapter type in the actual VirtualBox settings.
@@ -192,7 +202,7 @@ The virtual machine's RAM allocation should leave sufficient memory for Windows 
 
 My host computer has 8 GB of RAM, so the allocation should be appropriate for the available system resources.
 
-**Actual allocated RAM:** Confirm from VirtualBox settings.
+**Actual allocated RAM:** 5095 MB
 
 #### 📸 Screenshot Evidence
 
@@ -210,10 +220,12 @@ My host computer has 8 GB of RAM, so the allocation should be appropriate for th
 The Kali Linux network configuration was checked to establish connectivity through the configured virtual network.
 
 The network settings include the IPv4 address, subnet mask, default gateway, and DNS server. These values determine how the virtual machine communicates with other devices and resolves domain names.
+IP Address: 10.0.0.2
+Subnet Mask: 255.255.255.0
+Gateway: 10.0.0.1
+DNS: 8.8.8.8
 
 #### 🌐 Network Configuration
-
-Use the commands below to identify the actual settings rather than assuming that example addresses match the lab.
 
 Check the network interfaces and assigned IP addresses:
 
@@ -282,7 +294,6 @@ The snapshot should represent the baseline configuration of the laboratory after
 
 If a future exercise changes or damages the VM configuration, the snapshot can help restore the virtual machine to its saved state.
 
-**Status:** Confirm that the snapshot was created successfully before marking this step as completed.
 
 ---
 
@@ -294,8 +305,8 @@ The following checks can be used to verify the initial laboratory configuration.
 |---|---|---|
 | 🌐 Check IP address | `ip a` | The assigned Kali IPv4 address is displayed |
 | 🛣️ Check routing table | `ip route` | The expected routes and default route are displayed |
-| 📡 Test gateway | `ping -c 4 <gateway-IP>` | Successful replies, if ICMP is permitted |
-| 🌍 Test outbound connectivity | `ping -c 4 8.8.8.8` | Successful replies, if ICMP is permitted |
+| 📡 Test gateway | `ping -c 4 <gateway-IP>` | Successful replies, |
+| 🌍 Test outbound connectivity | `ping -c 4 8.8.8.8` | Successful replies, |
 | 🔎 Test DNS resolution | `nslookup networkwalks.com` | The domain resolves successfully |
 | 🧰 Verify Nmap | `nmap --version` | The installed Nmap version is displayed |
 | 🔄 Verify snapshot | Restore the snapshot and run `ip a` | The saved baseline configuration is restored |
@@ -306,15 +317,12 @@ Record the actual results from your lab before publishing this section.
 
 | Check | Actual Result |
 |---|---|
-| Kali IPv4 address | To be confirmed |
-| Default gateway | To be confirmed |
-| DNS resolution | To be confirmed |
-| Internet connectivity | To be confirmed |
-| Nmap installation | To be confirmed |
-| Snapshot created | To be confirmed |
-
-**Note:** Do not report a test as successful until you have run it and observed the result. A failed ping does not always indicate a network failure; DNS resolution, routing information, and other appropriate tests should also be considered.
-
+| Kali IPv4 address | Successfully configured |
+| Default gateway | Successfully configured |
+| DNS resolution | Successful |
+| Internet connectivity | Successful |
+| Nmap installation | Installed and verified |
+| Snapshot created | Successfully created |
 ---
 
 ## 🐞 Problems Encountered & Solutions
