@@ -20,7 +20,6 @@
   <img src="https://img.shields.io/badge/Ethical%20Hacking-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
   <img src="https://img.shields.io/badge/Samuel%20Miracle%20-C00000?style=flat-square" />
 </p>
----
 
 ## 📌 Project Overview
 
