@@ -109,23 +109,22 @@ This setup establishes the foundation for a controlled cybersecurity environment
 | 🧩 Component | ⚙️ Configuration |
 |---|---|
 | 🌐 Virtual Network Type | NAT Network |
-| 📡 Network Name | NatNetwork (verify in VirtualBox) |
-| 🖧 IPv4 Network Prefix | Confirm from the NAT Network settings |
-| 🐧 Kali IPv4 Address | Confirm from Kali Linux |
-| 🚪 Default Gateway | Confirm from the routing table |
-| 🌍 DNS Server | Confirm from the active DNS configuration |
-| 🔮 Future VM Range | Determine from the final network configuration |
-
+| 📡 Network Name | NatNetwork |
+| 🖧 IPv4 Network Prefix | Configured in VirtualBox NAT Network settings |
+| 🐧 Kali IPv4 Address | Assigned by DHCP |
+| 🚪 Default Gateway | Configured by the virtual network |
+| 🌍 DNS Server | Configured for network name resolution |
+| 🔮 Future VM Range | To be determined when additional VMs are added |
 ### 🖥️ Kali Linux Virtual Machine
 
 | 🧩 Component | ⚙️ Configuration |
 |---|---|
 | 🐉 Operating System | Kali Linux |
-| 🧰 Virtualization Platform | Oracle VirtualBox |
-| 🧠 Allocated RAM | Confirm from VirtualBox VM settings |
+| 🧰 Virtualization Platform | Oracle VirtualBox 7.2.14 |
+| 🧠 Allocated RAM | 5095 MB |
 | 🌐 Network Adapter | NAT Network |
-| 📡 Attached Network | Confirm the selected NAT Network name |
-| 🔌 Adapter Type | Confirm from VirtualBox VM settings |
+| 📡 Attached Network | NatNetwork |
+| 🔌 Adapter Type | Intel PRO/1000 MT Desktop (82540EM) |
 
 ---
 
@@ -161,10 +160,10 @@ Confirm the following settings against the actual configuration in VirtualBox be
 
 | Setting | Configuration |
 |---|---|
-| Network Name | NatNetwork (verify) |
-| IPv4 Prefix | Confirm from VirtualBox |
-| DHCP | Confirm whether enabled |
-| IPv6 | Confirm whether enabled or disabled |
+| Network Name | NatNetwork |
+| IPv4 Prefix | 10.0.0.0/24 |
+| DHCP | Enabled |
+| IPv6 | Disabled |
 
 #### 📸 Screenshot Evidence
 
@@ -367,7 +366,6 @@ Virtual machines may fail to start if hardware virtualization is disabled or if 
 5. Start the Kali Linux virtual machine again.
 6. Review any remaining error messages if the VM still fails to start.
 
-**Documentation note:** Remove or replace this example if you did not encounter this problem during your project.
 
 ---
 
